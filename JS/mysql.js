@@ -22,7 +22,13 @@ connection.query(editar, (err, rows) =>{
     console.log('Datos editados');
 })
 
-// UPDATE `baseproyecto`.`persona` SET `cedula` = '', `nombre` = '', `apellidos` = '', `direccion` = '', `telefono` = '', `correo` = '', `genero` = '' WHERE (`cedula` = '100285822')
+const eliminar = "DELETE FROM `baseproyecto`.`persona` WHERE (`cedula` = '100285822');"
+connection.query(eliminar, (err, rows) =>{
+    if(err) throw err
+    console.log('Datos eliminados');
+})
+
+
 connection.query('SELECT * FROM baseproyecto.persona;',(err,rows) =>{
     if(err) throw err
     console.log('Los datos solicitados son: ')
