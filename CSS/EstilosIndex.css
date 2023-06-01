@@ -57,6 +57,13 @@ header .logo{
     height: 100%;
 
 }
+.exit {
+    background: white;
+    width: 5%;
+    height: 5%;
+    filter: invert(100%) sepia(0%) saturate(1831%) hue-rotate(338deg) brightness(100%) contrast(103%);
+}
+
 nav{
     height: 100%;
 }

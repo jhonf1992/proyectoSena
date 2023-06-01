@@ -23,7 +23,7 @@ body{
     height: 90vh;
     display: flex;
     justify-content: space-around;
-    transition: all .5s ease-out;
+    transition: all 1s ease-out;
 }
 
 .welcome-back{

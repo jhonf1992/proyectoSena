@@ -6,3 +6,6 @@ la base de datos
 hay que recordar que si nos aparece algun error es porque el servidor no esta conectado
 primero hay que validar nombre de la base de datos, si hay contraseña o si el usuario 
 es correcto y volver a intentar.
+
+dentro del archivo mysql.js se encuentran las 4 funciones fundamentales para 
+realizar el CRUD, consultar, editar, eliminar, insertar.
