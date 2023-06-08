@@ -278,13 +278,27 @@ nav ul li a{
     background: var(--color-esqueleto);
     margin: 20px;
 }
+.box__article .articulos{
+    max-width: 90%;
+    max-height: 90%;
+    justify-content: center;
+    text-align: center;
+    align-content: center;
+    display: inline
+}
 
-.articulos {
+
+/* .articulos {
     width: 90%;
     margin: 5px;
     margin-left: 10px;
-}
+} */
 
+.siguiente {
+    width: 100%;
+    text-align: center;
+    
+}
 .todo_articulos {
         padding: 10px 40px;
         margin-top: 40px;
