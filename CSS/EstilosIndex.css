@@ -361,7 +361,7 @@ nav ul li a{
 footer{
     width: 100%;
     padding: 50px 0px;
-    background-image: url(img/ladrillo2.jpg);
+    background-image: url(./img/ladrillo2.jpg);
     background-size: cover;
     /* background-color: black; */
     /*-webkit-mask-image: url("img/background-footer.svg");
