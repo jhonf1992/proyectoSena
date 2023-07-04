@@ -119,6 +119,7 @@ nav ul li a{
     flex-direction: column;
     width: 100%;
     height: auto;
+    font-family:'Poppins', sans-serif;
 }
 
 .buscar{
@@ -143,6 +144,42 @@ nav ul li a{
 .inventario{
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.caja{
+    display: flex;
+    flex-direction: column;
+    width: 20rem;
+    height: 35rem;
+    background-color: whitesmoke;
+    margin: 30px auto 50px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+.inventario__imagen{
+    width: 16rem;
+    margin-bottom: 5px;
+    border-radius: 10px;
+}
+.inventario__nombre{
+    font-size: 1.6rem;
+    color: #c27407;
+    margin-top: 5px;
+    text-align: center;
+}
+
+.precio{
+    font-size: 1.4rem;
+    color: #e78a09;
+    font-weight: bold;
+}
+.caja p{
+    text-align: center;
+    font-size: 1rem;
 }
 
 
